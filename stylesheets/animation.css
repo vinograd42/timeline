@@ -1,0 +1,37 @@
+.circle {
+  animation:
+}
+
+.stone {
+  animation: stone 1s linear infinite;
+}
+.jump_fox {
+  animation: fox 1s ease-in infinite;
+}
+.up_fox {
+  animation: up 1s ease-in infinite;
+}
+
+@keyframes stone {
+  0% {opacity: .1;}
+  50% {left: 639px; opacity: 1;}
+  100% {left: 1061px; opacity: 0;}
+}
+@keyframes fox {
+  0% {opacity: 1;}
+  15% {opacity: 1;}
+  16% {opacity: 0;}
+  50% {top: 275px; opacity: 0;}
+  96% {opacity: 0;}
+  97% {opacity: 1;}
+  100% {opacity: 1;}
+}
+@keyframes up {
+  0% {opacity: 0;}
+  15% {opacity: 0;}
+  16% {opacity: 1;}
+  50% {top: 285px; opacity: 1;}
+  96% {opacity: 1;}
+  97% {opacity: 0}
+  100% {opacity: 0;}
+}

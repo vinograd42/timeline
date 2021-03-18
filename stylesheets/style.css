@@ -1,0 +1,212 @@
+h1 {font-family: 'Memphis TP';  font-size: 48px; color: #fff;}
+@font-face { font-family: 'Memphis TP'; font-style: normal; src: url('fonts/Medium.woff');}
+
+/* Start screen */
+.link {
+  width: 1440px;
+  height: 900px;
+}
+.wline {
+  top: 600px;
+  left: 161px;
+  position: absolute;
+}
+.stone {
+  top: 543px;
+  left: 266px;
+  position: absolute;
+}
+.jump_fox {
+  top: 361px;
+  left: 655px;
+  position: absolute;
+}
+.up_fox {
+  top: 371px;
+  left: 655px;
+  position: absolute;
+}
+
+.text1 {
+  top: 0;
+  left: 32px;
+  position: absolute;
+}
+.text2 {
+  top: 0;
+  left: 75vw;
+  position: absolute;
+}
+
+.fox {
+  top: 695px;
+  left: 32px;
+  position: absolute;
+}
+.tail {
+  top: 0;
+  left: 225px;
+  position: absolute;
+}
+.two_tails {
+  top: 214px;
+  left: 199px;
+  position: absolute;
+}
+.line {
+  top: 175px;
+  left: 1571px;
+  position: absolute;
+}
+.date {
+  top: 80px;
+  left: 1467px;
+  position: absolute;
+}
+
+.prints {
+  top: 821px;
+  left: 5034px;
+  position: absolute;
+  transition: all 5s ease;
+}
+
+.circle {
+  width: 16px;
+  height: 16px;
+  border-radius: 100%;
+  background-color: #E8932F;
+  position: absolute;
+}
+.j27 {
+  top: 442px;
+  left: 1573px;
+}
+.j28 {
+  top: 558px;
+  left: 1573px;
+}
+.j29 {
+  top: 674px;
+  left: 1584px;
+}
+.j30 {
+  top: 790px;
+  left: 1746px;
+}
+.j31 {
+  top: 674px;
+  left: 1918px;
+}
+.a1 {
+  top: 557px;
+  left: 1932px;
+}
+.a2 {
+  top: 442px;
+  left: 1938px;
+}
+.a3 {
+  top: 323px;
+  left: 1988px;
+}
+.a4 {
+  top: 240px;
+  left: 2166px;
+}
+.a5 {
+  top: 244px;
+  left: 2292px;
+}
+.a6 {
+  top: 442px;
+  left: 2446px;
+}
+.a7 {
+  top: 557px;
+  left: 2452px;
+}
+.a8 {
+  top: 686px;
+  left: 2627px;
+}
+.a9 {
+  top: 556px;
+  left: 2794px;
+}
+.a10 {
+  top: 442px;
+  left: 2799px;
+}
+.a11 {
+  top: 321px;
+  left: 2831px;
+}
+.a12 {
+  top: 179px;
+  left: 3000px;
+}
+.a13 {
+  top: 269px;
+  left: 3163px;
+}
+.a14 {
+  top: 385px;
+  left: 3194px;
+}
+.a15 {
+  top: 501px;
+  left: 3214px;
+}
+.a16 {
+  top: 612px;
+  left: 3314px;
+}
+.a17 {
+  top: 656px;
+  left: 3447px;
+}
+.a18 {
+  top: 662px;
+  left: 3583px;
+}
+.a19 {
+  top: 638px;
+  left: 3716px;
+}
+.a20 {
+  top: 593px;
+  left: 3835px;
+}
+.a21 {
+  top: 518px;
+  left: 3951px;
+}
+.a22 {
+  top: 439px;
+  left: 4068px;
+}
+.a23 {
+  top: 390px;
+  left: 4184px;
+}
+.a24 {
+  top: 359px;
+  left: 4300px;
+}
+.a25 {
+  top: 342px;
+  left: 4416px;
+}
+.a26 {
+  top: 336px;
+  left: 4532px;
+}
+.a27 {
+  top: 339px;
+  left: 4648px;
+}
+.a28 {
+  top: 350px;
+  left: 4771px;
+}
