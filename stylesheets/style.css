@@ -1,4 +1,4 @@
-h1 {font-family: 'Memphis TP';  font-size: 48px; color: #fff;}
+p {font-family: 'Memphis TP'; font-style: bold; font-weight: 700; font-size: 48px; color: #fff;}
 @font-face { font-family: 'Memphis TP'; font-style: normal; src: url('fonts/Medium.woff');}
 
 /* Start screen */
