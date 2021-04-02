@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
     <link rel="stylesheet" href="stylesheets/import.css">
-    <link rel="fonts" href="fonts/Medium.woff" as="font">
-    <!-- <script src="javascript/jQuery-3.6.0.js" charset="utf-8"></script>
-    <script src="javascript/name.js" charset="utf-8"></script> -->
+    <link rel="fonts" href="fonts/MemphisLTPro-Bold.woff" as="font">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="javascript/script.js"></script>
     <title>Timeline</title>
   </head>
   <body bgcolor='#160C00'>
@@ -17,26 +17,36 @@
     <div class="text2">
       <p>27&nbsp;июля&nbsp;–&nbsp;28&nbsp;августа</p>
     </div>
+    <div class="text3">
+      <p>Галиаскарова Камила</p>
+    </div>
+
+    <!-- Time section -->
+    <!-- <h1 id="clock">00:00</h1> -->
 
     <!-- Image section -->
-    <div class="fox" id="s1">
-      <img src="images/fox.png" alt="fox">
-    </div>
-    <div class="tail">
-      <img src="images/tail.png" alt="tail">
-    </div>
-    <div class="two_tails">
-      <img src="images/two_tails.png" alt="white_tails">
-    </div>
-    <div class="line">
-      <img src="images/line.png" alt="line">
-    </div>
-    <div class="date">
-      <img src="images/date.png" alt="date">
-    </div>
-
+    <picture class="fox" id="s1">
+      <!-- <source srcset="images/fox.png" alt="fox" media="(min-width: 600px)"> -->
+        <img src="images/fox.png" alt="fox_rd" class="fox_rd">
+    </picture>
+    <picture class="tail">
+      <!-- <source srcset="images/tail_2.png" media="(min-width: 600px)"> -->
+        <img src="images/tail.png" class="tail_rd">
+    </picture>
+    <picture class="two_tails">
+      <!-- <source srcset="images/two_tails.png" media="(min-width: 600px)"> -->
+        <img src="images/two_tails.png">
+    </picture>
+    <picture class="line">
+      <source srcset="images/line.png" media="(min-width: 600px)">
+        <img src="">
+    </picture>
+    <picture class="date">
+      <source srcset="images/date.png" media="(min-width: 600px)">
+        <img src="">
+    </picture>
     <div class="prints">
-      <a href="#s1"><img src="images/footprints.png" alt="footprints"></a>
+      <a href="#s1"><img src="images/footprints.png"></a>
     </div>
 
     <!-- Circles section -->
@@ -74,8 +84,40 @@
     <div class="circle a27"></div>
     <div class="circle a28"></div>
 
-
-
+    <!-- Event section -->
+    <div class="event cj27"><img src="images/c_27.png"></div>
+    <div class="event cj28"><img src="images/c_28.png"></div>
+    <div class="event cj29"><img src="images/c_29.png"></div>
+    <div class="event cj30"><img src="images/c_30.png"></div>
+    <div class="event cj31"><img src="images/c_31.png"></div>
+    <div class="event ca1"><img src="images/c_1.png"></div>
+    <div class="event ca2"><img src="images/c_2.png"></div>
+    <div class="event ca3"><img src="images/c_3.png"></div>
+    <div class="event ca4"><img src="images/c_4.png"></div>
+    <div class="event ca5"><img src="images/c_5.png"></div>
+    <div class="event ca6"><img src="images/c_6.png"></div>
+    <div class="event ca7"><img src="images/c_7.png"></div>
+    <div class="event ca8"><img src="images/c_8.png"></div>
+    <div class="event ca9"><img src="images/c_9.png"></div>
+    <div class="event ca10"><img src="images/c_10.png"></div>
+    <div class="event ca11"><img src="images/c_11.png"></div>
+    <div class="event ca12"><img src="images/c_12.png"></div>
+    <div class="event ca13"><img src="images/c_13.png"></div>
+    <div class="event ca14"><img src="images/c_14.png"></div>
+    <div class="event ca15"><img src="images/c_15.png"></div>
+    <div class="event ca16"><img src="images/c_16.png"></div>
+    <div class="event ca17"><img src="images/c_17.png"></div>
+    <div class="event ca18"><img src="images/c_18.png"></div>
+    <div class="event ca19"><img src="images/c_19.png"></div>
+    <div class="event ca20"><img src="images/c_20.png"></div>
+    <div class="event ca21"><img src="images/c_21.png"></div>
+    <div class="event ca22"><img src="images/c_22.png"></div>
+    <div class="event ca23"><img src="images/c_23.png"></div>
+    <div class="event ca24"><img src="images/c_24.png"></div>
+    <div class="event ca25"><img src="images/c_25.png"></div>
+    <div class="event ca26"><img src="images/c_26.png"></div>
+    <div class="event ca27"><img src="images/c_a27.png"></div>
+    <div class="event ca28"><img src="images/c_a28.png"></div>
 
   </body>
 </html>

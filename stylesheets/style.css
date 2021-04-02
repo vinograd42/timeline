@@ -1,56 +1,95 @@
-p {font-family: 'Memphis TP'; font-style: bold; font-weight: 700; font-size: 48px; color: #fff;}
-@font-face { font-family: 'Memphis TP'; font-style: normal; src: url('fonts/Medium.woff');}
+h1, p {font-family: 'MemphisLTPro';
+font-weight: bold;
+color: #fff;}
+
+@font-face {
+  font-family: 'MemphisLTPro';
+  font-style: normal;
+  font-weight: bold;
+  src: local('MemphisLTPro'),
+      url('/fonts/MemphisLTPro-Bold.woff') format('woff');
+  }
+
+html {
+  overflow: scroll;
+  overflow-y: hidden;
+}
+
 
 /* Start screen */
-.link {
-  width: 1440px;
-  height: 900px;
-}
+
 .wline {
   top: 600px;
-  left: 161px;
+  left: 20%;
   position: absolute;
 }
 .stone {
   top: 543px;
-  left: 266px;
+  left: 20%;
   position: absolute;
 }
 .jump_fox {
   top: 361px;
-  left: 655px;
+  left: 45%;
   position: absolute;
 }
 .up_fox {
   top: 371px;
-  left: 655px;
+  left: 45%;
+  position: absolute;
+}
+.btn {
+  top: 670px;
+  left: 43%;
   position: absolute;
 }
 
+/* Timeline screen */
+
+/* Text section */
 .text1 {
+  font-size: 48px;
   top: 0;
   left: 32px;
   position: absolute;
 }
 .text2 {
+  font-size: 48px;
+  width: 1000px;
   top: 0;
   left: 75vw;
   position: absolute;
 }
+.text3 {
+  font-size: 24px;
+  width: 242px;
+  top: 0;
+  left: 4870px;
+  position: absolute;
+}
 
+/* Time section */
+#clock {
+  top: 75px;
+  left: 75vw;
+  position: absolute;
+}
+
+/* Images section */
 .fox {
   top: 695px;
   left: 32px;
   position: absolute;
 }
 .tail {
+  height: 100%;
   top: 0;
-  left: 225px;
+  left: 215px;
   position: absolute;
 }
 .two_tails {
   top: 214px;
-  left: 199px;
+  left: 189px;
   position: absolute;
 }
 .line {
@@ -65,148 +104,92 @@ p {font-family: 'Memphis TP'; font-style: bold; font-weight: 700; font-size: 48p
 }
 
 .prints {
-  top: 821px;
+  top: 870px;
   left: 5034px;
   position: absolute;
   transition: all 5s ease;
 }
 
+/* Circles section */
 .circle {
   width: 16px;
   height: 16px;
   border-radius: 100%;
   background-color: #E8932F;
   position: absolute;
+  cursor: pointer;
 }
-.j27 {
-  top: 442px;
-  left: 1573px;
+.j27 {top: 442px;left: 1573px;}
+.j28 {top: 558px;left: 1573px;}
+.j29 {top: 674px;left: 1584px;}
+.j30 {top: 790px;left: 1746px;}
+.j31 {top: 674px;left: 1918px;}
+.a1 {top: 557px;left: 1932px;}
+.a2 {top: 442px;left: 1938px;}
+.a3 {top: 323px;left: 1988px;}
+.a4 {top: 240px;left: 2166px;}
+.a5 {top: 244px;left: 2292px;}
+.a6 {top: 442px;left: 2446px;}
+.a7 {top: 557px;left: 2452px;}
+.a8 {top: 686px;left: 2627px;}
+.a9 {top: 556px;left: 2794px;}
+.a10 {top: 442px;left: 2799px;}
+.a11 {top: 321px;left: 2831px;}
+.a12 {top: 179px;left: 3000px;}
+.a13 {top: 269px;left: 3163px;}
+.a14 {top: 385px;left: 3194px;}
+.a15 {top: 501px;left: 3214px;}
+.a16 {top: 612px;left: 3314px;}
+.a17 {top: 656px;left: 3447px;}
+.a18 {top: 662px;left: 3583px;}
+.a19 {top: 638px;left: 3716px;}
+.a20 {top: 593px;left: 3835px;}
+.a21 {top: 518px;left: 3951px;}
+.a22 {top: 439px;left: 4068px;}
+.a23 {top: 390px;left: 4184px;}
+.a24 {top: 359px;left: 4300px;}
+.a25 {top: 342px; left: 4416px;}
+.a26 {top: 336px; left: 4532px;}
+.a27 {top: 339px; left: 4648px;}
+.a28 {top: 350px; left: 4771px;}
+
+/* Event section */
+.event {
+  position: absolute;
+  display: none;
+  transition: all ease 0.8s;
 }
-.j28 {
-  top: 558px;
-  left: 1573px;
-}
-.j29 {
-  top: 674px;
-  left: 1584px;
-}
-.j30 {
-  top: 790px;
-  left: 1746px;
-}
-.j31 {
-  top: 674px;
-  left: 1918px;
-}
-.a1 {
-  top: 557px;
-  left: 1932px;
-}
-.a2 {
-  top: 442px;
-  left: 1938px;
-}
-.a3 {
-  top: 323px;
-  left: 1988px;
-}
-.a4 {
-  top: 240px;
-  left: 2166px;
-}
-.a5 {
-  top: 244px;
-  left: 2292px;
-}
-.a6 {
-  top: 442px;
-  left: 2446px;
-}
-.a7 {
-  top: 557px;
-  left: 2452px;
-}
-.a8 {
-  top: 686px;
-  left: 2627px;
-}
-.a9 {
-  top: 556px;
-  left: 2794px;
-}
-.a10 {
-  top: 442px;
-  left: 2799px;
-}
-.a11 {
-  top: 321px;
-  left: 2831px;
-}
-.a12 {
-  top: 179px;
-  left: 3000px;
-}
-.a13 {
-  top: 269px;
-  left: 3163px;
-}
-.a14 {
-  top: 385px;
-  left: 3194px;
-}
-.a15 {
-  top: 501px;
-  left: 3214px;
-}
-.a16 {
-  top: 612px;
-  left: 3314px;
-}
-.a17 {
-  top: 656px;
-  left: 3447px;
-}
-.a18 {
-  top: 662px;
-  left: 3583px;
-}
-.a19 {
-  top: 638px;
-  left: 3716px;
-}
-.a20 {
-  top: 593px;
-  left: 3835px;
-}
-.a21 {
-  top: 518px;
-  left: 3951px;
-}
-.a22 {
-  top: 439px;
-  left: 4068px;
-}
-.a23 {
-  top: 390px;
-  left: 4184px;
-}
-.a24 {
-  top: 359px;
-  left: 4300px;
-}
-.a25 {
-  top: 342px;
-  left: 4416px;
-}
-.a26 {
-  top: 336px;
-  left: 4532px;
-}
-.a27 {
-  top: 339px;
-  left: 4648px;
-}
-.a28 {
-  top: 350px;
-  left: 4771px;
-}
+
+.cj27 {top: 360px;left: 1326px;}
+.cj28 {top: 476px;left: 1590px;}
+.cj29 {top: 594px;left: 1336px;}
+.cj30 {top: 548px;left: 1663px;}
+.cj31 {top: 592px;left: 1935px;}
+.ca1 {top: 474px;left: 1685px;}
+.ca2 {top: 360px;left: 1956px;}
+.ca3 {top: 241px;left: 1740px;}
+.ca4 {top: 256px;left: 2083px;}
+.ca5 {top: 2px;left: 2210px;}
+.ca6 {top: 360px;left: 2199px;}
+.ca7 {top: 474px;left: 2470px;}
+.ca8 {top: 702px;left: 2544px;}
+.ca9 {top: 474px;left: 2545px;}
+.ca10 {top: 360px;left: 2816px;}
+.ca11 {top: 239px;left: 2583px;}
+.ca12 {top: 197px;left: 2917px;}
+.ca13 {top:187px;left: 3180px;}
+.ca14 {top:303px;left: 2946px;}
+.ca15 {top: 418px;left: 3231px;}
+.ca16 {top: 629px;left: 3231px;}
+.ca17 {top: 414px;left: 3365px;}
+.ca18 {top: 679px;left: 3501px;}
+.ca19 {top: 395px;left: 3633px;}
+.ca20 {top: 609px;left: 3752px;}
+.ca21 {top: 276px;left: 3868px;}
+.ca22 {top: 457px;left: 3985px;}
+.ca23 {top: 143px;left: 4101px;}
+.ca24 {top: 375px;left: 4217px;}
+.ca25 {top: 99px;left: 4333px;}
+.ca26 {top: 352px;left: 4449px;}
+.ca27 {top: 97px;left: 4565px;}
+.ca28 {top: 366px;left: 4688px;}
